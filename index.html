@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="follow,index">
+  <title>Error pages list</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --color-primary: #fff;
+      --color-inverted: #202020;
+      --color-link: #395364;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-primary: #1a1a1a;
+        --color-inverted: #fff;
+        --color-link: #5cb0d3;
+      }
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      height: 100%;
+      width: 100%;
+      background-color: var(--color-primary);
+      color: var(--color-inverted);
+      font-family: sans-serif;
+      font-size: 16px;
+    }
+
+    @media screen and (min-width: 2000px) {
+      html, body {
+        font-size: 20px;
+      }
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    a {
+      color: var(--color-link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      width: 1200px;
+      height: 100%;
+      text-align: left;
+    }
+
+    header {
+      padding: 3em 0;
+    }
+
+    header h1 {
+      font-size: 3em;
+      text-align: center;
+      margin: 0;
+    }
+
+    article h2 {
+      font-size: 1.7em;
+    }
+
+    article h2 code {
+      text-decoration: underline;
+    }
+
+    article ul {
+      list-style: none;
+      margin: 1em 0;
+      padding: 0 0 0 1em;
+    }
+
+    article ul li {
+      margin: 0;
+      padding: 0;
+    }
+
+    footer {
+      padding: 3em 0;
+      text-align: center;
+      font-size: 0.8em;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Error pages index</h1>
+  </header>
+
+  <article>
+    
+    <h2>Template name: <Code>main</Code></h2>
+    <ul class="mb-5">
+      
+      <li><a href="./main/400.html"><strong>400</strong>: Bad Request</a></li>
+      
+      <li><a href="./main/401.html"><strong>401</strong>: Unauthorized</a></li>
+      
+      <li><a href="./main/403.html"><strong>403</strong>: Forbidden</a></li>
+      
+      <li><a href="./main/404.html"><strong>404</strong>: Not Found</a></li>
+      
+      <li><a href="./main/405.html"><strong>405</strong>: Method Not Allowed</a></li>
+      
+      <li><a href="./main/407.html"><strong>407</strong>: Proxy Authentication Required</a></li>
+      
+      <li><a href="./main/408.html"><strong>408</strong>: Request Timeout</a></li>
+      
+      <li><a href="./main/409.html"><strong>409</strong>: Conflict</a></li>
+      
+      <li><a href="./main/410.html"><strong>410</strong>: Gone</a></li>
+      
+      <li><a href="./main/411.html"><strong>411</strong>: Length Required</a></li>
+      
+      <li><a href="./main/412.html"><strong>412</strong>: Precondition Failed</a></li>
+      
+      <li><a href="./main/413.html"><strong>413</strong>: Payload Too Large</a></li>
+      
+      <li><a href="./main/416.html"><strong>416</strong>: Requested Range Not Satisfiable</a></li>
+      
+      <li><a href="./main/418.html"><strong>418</strong>: I&#39;m a teapot</a></li>
+      
+      <li><a href="./main/429.html"><strong>429</strong>: Too Many Requests</a></li>
+      
+      <li><a href="./main/500.html"><strong>500</strong>: Internal Server Error</a></li>
+      
+      <li><a href="./main/502.html"><strong>502</strong>: Bad Gateway</a></li>
+      
+      <li><a href="./main/503.html"><strong>503</strong>: Service Unavailable</a></li>
+      
+      <li><a href="./main/504.html"><strong>504</strong>: Gateway Timeout</a></li>
+      
+      <li><a href="./main/505.html"><strong>505</strong>: HTTP Version Not Supported</a></li>
+      
+    </ul>
+    
+  </article>
+
+  <footer>
+    For online documentation and support please refer to the
+    <a href="https://gh.tarampamp.am/error-pages">project repository</a>.
+  </footer>
+</main>
+</body>
+</html>
